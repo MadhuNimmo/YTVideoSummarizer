@@ -1,4 +1,4 @@
-# Video Summary and Note Saver
+# YouTubeVideoSummarizer
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
