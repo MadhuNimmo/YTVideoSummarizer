@@ -14,6 +14,16 @@ The major goals of this project are:
 - Save time by avoiding long video playback.
 - Enable users to store essential notes for future reference.
 
+## System Requirements
+
+This project requires Python3. Ensure that you have Python 3 installed on your system before running the project. You can download Python 3 from the official Python website: [Python Downloads](https://www.python.org/downloads/).
+
+To check if Python 3 is installed on your system, you can open a terminal or command prompt and run the following command:
+
+```
+python3 --version
+```
+
 ## Setup Instructions
 
 To get started with Video Summary and Note Saver, you need to set some environment variables and install the necessary dependencies.
