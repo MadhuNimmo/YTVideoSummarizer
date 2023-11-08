@@ -26,7 +26,46 @@ python3 --version
 
 ## Setup Instructions
 
-To get started with Video Summary and Note Saver, you need to set some environment variables and install the necessary dependencies.
+To get started with YTVideoSummarizer, you need to set some environment variables and install the necessary dependencies.
+
+## Setting up YouTube API Key and Hugging Face Credentials
+
+Before you can use YTVideoSummarizer, you need to obtain a YouTube API key and Hugging Face credentials. Here's how you can set up these credentials:
+
+### Obtaining a YouTube API Key:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+
+2. Create a new project or select an existing one from the project dropdown.
+
+3. In the left sidebar, click on "APIs & Services" and then "Library."
+
+4. In the "Library" section, search for "YouTube Data API v3" and enable it for your project.
+
+5. After enabling the API, click on "Credentials" in the left sidebar.
+
+6. Click on "Create Credentials" and select "API Key."
+
+7. Your new API key will appear on the screen. Click on the "Restrict Key" button to add restrictions if needed, such as restricting it to your IP address.
+
+8. Copy the API key and set it as the `yt_api_key` environment variable as explained in the next setup instructions.
+
+### Obtaining Hugging Face Credentials:
+
+1. Go to the Hugging Face website (https://huggingface.co/).
+
+2. Sign up for an account if you don't already have one.
+
+3. Once you have an account and are logged in, navigate to your account settings.
+
+4. In your account settings, you will find your Hugging Face username and an option to set your password.
+
+5. Copy your Hugging Face username and set it as the `huggingface_username` environment variable.
+
+6. Set your Hugging Face password as the `huggingface_pwd` environment variable.
+
+With these credentials in place, you'll be able to use YTVideoSummarizer to summarize videos and save notes effectively.
+
 
 ### Setting Environment Variables
 
