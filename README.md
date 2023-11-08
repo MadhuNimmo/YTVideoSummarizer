@@ -96,9 +96,9 @@ pip install -r requirements.txt
 **Running Instructions**
 You can use Video Summary and Note Saver to summarize a video and save notes by running the following command:
 ```
-python3 script.py <Link to Video>
+python3 script.py <<LinktoVideo>>
 ```
-Replace <Link to Video> with the actual URL of the video you want to summarize.
+Replace <<LinktoVideo>> with the actual URL of the video you want to summarize.
 
 **Contributing**
 We welcome contributions from the community to make this project even better. If you encounter any issues or have suggestions for improvements, please feel free to use the issue tracker to report problems or propose enhancements. Your feedback is valuable, and we appreciate your help in making this projecvt more efficient and user-friendly.
